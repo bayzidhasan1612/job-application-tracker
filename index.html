@@ -44,7 +44,7 @@
         <h1 class="text-3xl font-bold pt-16 mb-5">Job Application Tracker</h1>
 
         <!-- Cards -->
-        <div id="" class="grid sm:grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-6">
+        <div id="" class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <!-- total -->
           <div class="card bg-base-100 w-full shadow-sm">
             <div class="card-body">
@@ -80,28 +80,28 @@
       <div class="max-w-6xl mx-auto">
         <div class="flex justify-between">
           <h1 class="font-semibold text-xl mb-6">Available Jobs</h1>
-          <p><span id="available-msg" class="">8 jobs</span></p>
+          <p><span id="available-msg">8 jobs</span></p>
         </div>
 
-        <div class="space-x-4 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <div class="space-x-4">
           <button
             id="btn-all"
             onclick="switchTab('all')"
-            class="bg-transparent border-2 border-coral shadow-sm cursor-pointer rounded text white px-14 py-2"
+            class="bg-transparent border-2 border-coral shadow-sm cursor-pointer rounded text white sm:px-8 px-10 py-2"
           >
             All
           </button>
           <button
             id="btn-interview"
             onclick="switchTab('interview')"
-            class="bg-transparent shadow-sm border-2 border-coral cursor-pointer rounded text white px-10 py-2"
+            class="bg-transparent shadow-sm border-2 border-coral cursor-pointer rounded text white px-10 sm:px-4 py-2"
           >
             Interviews
           </button>
           <button
             id="btn-rejected"
             onclick="switchTab('rejected')"
-            class="bg-transparent border-2 border-coral shadow-sm cursor-pointer rounded text white px-10 py-2"
+            class="bg-transparent border-2 border-coral shadow-sm cursor-pointer rounded text white px-10 sm:px-4 py-2"
           >
             Rejected
           </button>
@@ -114,7 +114,7 @@
       <section>
         <div id="all-job-container" class="hidden max-w-6xl mx-auto py-8 px-4 space-y-5">
           <!-- cards section -->
-          <div class="card bg-base-100 h-[280px] shadow-md">
+          <div class="card bg-base-100 h-full shadow-md">
             <div class="card-body">
               <div class="flex justify-between">
                 <h1 class="font-semibold text-xl">Mobile First Corp</h1>
@@ -142,7 +142,7 @@
           </div>
 
           <!-- second job -->
-          <div class="card bg-base-100 h-[280px] shadow-sm">
+          <div class="card bg-base-100 h-full shadow-sm">
             <div class="card-body">
               <div class="flex justify-between">
                 <h1 class="font-semibold text-xl">WebFlow Agency</h1>
@@ -172,7 +172,7 @@
           </div>
 
           <!-- third job -->
-          <div class="card bg-base-100 h-[280px] shadow-sm">
+          <div class="card bg-base-100 h-full shadow-sm">
             <div class="card-body">
               <div class="flex justify-between">
                 <h1 class="font-semibold text-xl">DataViz Solutions</h1>
@@ -202,7 +202,7 @@
           </div>
 
           <!-- 4th job -->
-          <div class="card bg-base-100 h-[280px] shadow-sm">
+          <div class="card bg-base-100 h-full shadow-sm">
             <div class="card-body">
               <div class="flex justify-between">
                 <h1 class="font-semibold text-xl">CloudFirst Inc</h1>
@@ -232,7 +232,7 @@
           </div>
 
           <!-- 5th job -->
-          <div class="card bg-base-100 h-[280px] shadow-sm">
+          <div class="card bg-base-100 h-full shadow-sm">
             <div class="card-body">
               <div class="flex justify-between">
                 <h1 class="font-semibold text-xl">Innovation Labs</h1>
@@ -263,7 +263,7 @@
           </div>
 
           <!-- 6th job -->
-          <div class="card bg-base-100 h-[280px] shadow-sm">
+          <div class="card bg-base-100 h-full shadow-sm">
             <div class="card-body">
               <div class="flex justify-between">
                 <h1 class="font-semibold text-xl">MegaCorp Solutions</h1>
@@ -294,7 +294,7 @@
           </div>
 
           <!-- 7th job -->
-          <div class="card bg-base-100 h-[280px] shadow-sm">
+          <div class="card bg-base-100 h-full shadow-sm">
             <div class="card-body">
               <div class="flex justify-between">
                 <h1 class="font-semibold text-xl">StartupXYZ</h1>
@@ -325,7 +325,7 @@
           </div>
 
           <!-- last job -->
-          <div class="card bg-base-100 h-[280px] shadow-sm">
+          <div class="card bg-base-100 h-full shadow-sm">
             <div class="card-body">
               <div class="flex justify-between">
                 <h1 class="font-semibold text-xl">TechCorp Industries</h1>
