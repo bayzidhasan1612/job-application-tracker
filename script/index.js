@@ -91,7 +91,7 @@ function updateJobs() {
   totalInterview.innerText = counts.interview;
   totalReject.innerText = counts.rejected;
 
-  availableMessage.innerText = counts[currentTab];
+  availableMessage.innerText = counts[currentTab]+ " " +"jobs";
 
   if (counts[currentTab] < 1) {
     emptyDashboard.classList.remove("hidden");
