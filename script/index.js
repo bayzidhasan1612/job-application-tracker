@@ -69,17 +69,15 @@ document
     if (clickedElement.classList.contains("interview")) {
       msg.innerText = "Interviewed";
       interviewContainer.appendChild(card);
-      updateJobs();
     }
     if (clickedElement.classList.contains("rejected")) {
       msg.innerText = "Rejected";
       rejectedContainer.appendChild(card);
-      updateJobs();
     }
     if (clickedElement.classList.contains("delete")) {
       parent.removeChild(card);
-      updateJobs();
     }
+    updateJobs();
   });
 
 function updateJobs() {
@@ -95,7 +93,7 @@ function updateJobs() {
 
   availableMessage.innerText = counts[currentTab];
 
-  if(counts[currentTab] < 1){
+  if (counts[currentTab] < 1) {
     emptyDashboard.classList.remove("hidden");
   }
 }
